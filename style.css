@@ -4,9 +4,19 @@
     margin-right: auto;
 }
 
+.pane {
+    background-color: gray;
+    display: block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border-radius:10px;
+}
+
 .text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:white;
+    color:black;
     margin-left: 2.5%;
     margin-top: 2.5%;
     margin-right: 2.5%
@@ -18,7 +28,7 @@ p {
 
 .link {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: gray;
+    color: blue;
     text-decoration: none;
     margin-left: 2.5%;
     margin-top: 2.5%;
