@@ -1,3 +1,9 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -11,6 +17,10 @@
     margin-right: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:2.5%;
+    padding-right:2.5%;
     border-radius:10px;
 }
 
@@ -19,7 +29,17 @@
     color:black;
     margin-left: 2.5%;
     margin-top: 2.5%;
+    margin-bottom: 2.5%;
     margin-right: 2.5%
+}
+
+.img {
+    width:100%;
+}
+
+.stretch {
+    width:100%;
+    height:100%;
 }
 
 p {
@@ -32,9 +52,34 @@ p {
     text-decoration: none;
     margin-left: 2.5%;
     margin-top: 2.5%;
-    margin-right: 2.5%
+    margin-right: 2.5%;
 }
 
 body {
     background-color: black;
+}
+
+.title {
+    margin-top:0%;
+    margin-bottom:0%;
+}
+
+.button {
+    background-color:blue;
+    padding-top:0%;
+    padding-bottom:0%;
+    padding-left:1%;
+    padding-right:1%;
+    width:fit-content;
+}
+
+.button-text {
+    color:white;
+    margin-top:1%;
+}
+
+#gopher_frame {
+    background-color:white;
+    border-radius: 10px;
+    border-radius: 10px;
 }
