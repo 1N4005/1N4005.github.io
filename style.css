@@ -55,6 +55,10 @@ p {
     margin-right: 2.5%;
 }
 
+.list_link {
+    display: block;
+}
+
 body {
     background-color: black;
 }
@@ -83,4 +87,9 @@ body {
     border-radius: 10px;
     border-radius: 10px;
     padding-bottom: 0px;
+}
+
+.grid_img {
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
