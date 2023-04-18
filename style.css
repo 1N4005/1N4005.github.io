@@ -89,6 +89,10 @@ body {
     padding-bottom: 0px;
 }
 
+#gopher_frame:hover {
+    background-color: aqua;
+}
+
 .grid_img {
     display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
